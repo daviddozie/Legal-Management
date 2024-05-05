@@ -1,7 +1,5 @@
 function input() {
-  return (
-    <></>
-  )
+  return <></>;
 }
 
-export default input
+export default input;
