@@ -12,3 +12,7 @@
 .lightgray {
     background: #7C7C7C;
 }
+
+input {
+    outline: none !important;
+}
