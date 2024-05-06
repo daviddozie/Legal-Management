@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,3 +13,23 @@
 .lightgray {
     background: #7C7C7C;
 }
+
+input {
+    outline: none !important;
+}
+.custom-subheader {
+    background-color: #595959!important;
+  }
+  .customItemsBtn {
+    background-color: #696969 !important;
+    color: white !important;
+    box-shadow: none !important;
+    /* margin-bottom: 2px !important; */
+  }
+  .custom-subheader:hover {
+    outline: none !important;
+    
+  }
+  .customItemsBtn:focus {
+    background-color: #4A4A4A !important;
+  }
